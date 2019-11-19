@@ -13,6 +13,6 @@ app.use(express.json());
 app.use("/",vehicleobj);
 app.use("/vehicle",vehicleobj);
 
-app.listen(3538, function(){
-    console.log("Server Started on port  " + 3538 );
+app.listen(3539, function(){
+    console.log("Server Started on port  " + 3539 );
 })
