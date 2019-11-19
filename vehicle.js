@@ -31,7 +31,6 @@ vehicleobj.get("/vehicle",function(req,res){
     });
 });
 
-
 vehicleobj.put("/:vehicleno",function(req,res){
     let eno=parseInt(req.params.vehicleno);
     let ename=req.body.vehiclename;
